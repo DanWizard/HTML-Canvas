@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Build a Robot</title>
+</head>
+<body>
+    <canvas id="my_canvas"></canvas>
+</body>
+<script>
+    let canvasElement = document.getElementById('my_canvas');
+    let canvasContext = canvasElement.getContext('2d');
+    canvasContext.fillStyle = 'grey';
+    canvasContext.fillRect(30, 10, 100, 125);
+    canvasContext.fillStyle = 'black';
+    canvasContext.fillRect(20,20, 10, 45)
+    canvasContext.fillRect(130,20, 10, 45)
+  	canvasContext.fillRect(50,20, 20, 20)
+    canvasContext.fillRect(90,20, 20, 20)
+    canvasContext.fillStyle ="white"
+    canvasContext.fillRect(45,80, 70, 20)
+    canvasContext.fillStyle ="black"
+    canvasContext.lineWidth = 2;
+    canvasContext.strokeRect(46,81, 69, 18)
+</script>
+</body>
+</html>

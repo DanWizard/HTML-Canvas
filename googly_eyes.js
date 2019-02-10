@@ -16,7 +16,7 @@ function draw() {
 		
 	fill("red");
 	rect(100, 100, 200, 200);
-	// stroke("black")
+	stroke("black")
 	// line(left_wallLE, 0, left_wallLE, height)
 	// line(left_wallRE, 0, left_wallRE, height)
 	// line(right_wallLE, 0, right_wallLE, height)
